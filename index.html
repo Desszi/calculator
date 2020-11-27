@@ -7,55 +7,48 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="calculator.css">
 </head>
-
-<body>
-    <div class="container">
-        <input class="input" type="text">
-
-        <div class="flexbox__buttons">
-            <div class="flexbox__options">
-                <button class="flexbox__options--func">+</button>
-                <button class="flexbox__options--func">-</button>
-                <button class="flexbox__options--func">x</button>
-                <button class="flexbox__options--func">/</button>
+<div class="calc__container">
+    <div class="input__field">
+        <input class="in" type="text" name="" id="" size="50px">
+    </div>
+    <div class="operations">
+        <button class="operations_btn">+</button>
+        <button class="operations_btn">-</button>
+        <button class="operations_btn">*</button>
+        <button class="operations_btn">/</button>
+    </div>
+    <div class="output_fied">
+        <div class="flex__numbers">
+            <div class="number">
+                <button class="num_btn 7">7</button>
+                <button class="num_btn 8">8</button>
+                <button class="num_btn 9">9</button>
             </div>
-
-            <div class="flex_together">
-                <div class="flexbox__numbers">
-                    <button class="flexbox__numbers--num">7</button>
-                    <button class="flexbox__numbers--num">8</button>
-                    <button class="flexbox__numbers--num">9</button>
-                </div>
-
-                <div class="flexbox__numbers">
-                    <button class="flexbox__numbers--num">4</button>
-                    <button class="flexbox__numbers--num">5</button>
-                    <button class="flexbox__numbers--num">6</button>
-                </div>
-
-                <div class="flexbox__numbers">
-                    <button class="flexbox__numbers--num">1</button>
-                    <button class="flexbox__numbers--num">2</button>
-                    <button class="flexbox__numbers--num">3</button>
-                </div>
-
-                <div class="flexbox__numbers">
-                    <button class="flexbox__numbers--num">0</button>
-                    <button class="flexbox__numbers--num">.</button>
-                    <button class="flexbox__numbers--num">c</button>
-                </div>
-
+            <div class="number">
+                <button class="num_btn 4">4</button>
+                <button class="num_btn 5">5</button>
+                <button class="num_btn 6">6</button>
             </div>
-
-            <div>
-                <button class="flexbox_equals--blue">=</button>
+            <div class="number">
+                <button class="num_btn 1">1</button>
+                <button class="num_btn 2">2</button>
+                <button class="num_btn 3">3</button>
             </div>
-
+            <div class="number">
+                <button class="num_btn 0">0</button>
+                <button class="num_btn .">.</button>
+                <button class="num_btn c">c</button>
+            </div>
         </div>
+        <div class="flex__equals">
+            <button class="btn__blue">=</button>
+        </div>
+    </div>
 
 
-    </div>
-    </div>
+</div>
+<body>
+ 
     <script src="calculator.js"></script>
 </body>
 

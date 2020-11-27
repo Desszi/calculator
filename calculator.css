@@ -1,59 +1,87 @@
-.container {
-    width: 70%;
-    justify-content: center;
-    border-color:  2px;
-    padding: 1rem;
-    margin: 10rem;
-}
-
-.flexbox__options {
-    width: 100%;
-}
-
-
-.flexbox__options--func {
- padding: 0.5rem 1rem 0.5rem 1rem;
- font-size: large;
- margin: 0.2rem;
- text-align: center;
- background-color: rgba(80, 79, 79, 0.692);
-
-}
-
-.flexbox__numbers {
-    width: 100%;
-}
-
-
-.flexbox__numbers--num {
- padding: 0.5rem 1rem 0.5rem 1rem;
- font-size: large;
- margin: 0.2rem;
- text-align: center;
-
-}
-
-.flexbox_equals--blue{
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    font-size: large;
-    margin: 0.2rem;
+.calc__container {
+    position: relative;
+    margin-left: 2px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid 1px gray;
+    border-radius: 0.4rem;
+    width: 25%;
+    margin: 0 auto;
     text-align: center;
-    background-color: rgb(69, 69, 243);
-    align-items: stretch;
-   
-   }
+}
 
 .input {
-    border-color: solid 2px;
-    width: 37%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 30px;
 }
 
-.flexbox_options {
+.operations {
+    width: 100%;
     display: flex;
     flex-direction: row;
-
+    justify-content: center;
 }
 
-.flex_together {
+.number {
+    margin-left: 10px;
+    margin: 7px;
+}
+
+.operations_btn {
+    vertical-align:middle;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background-color:gray;
+    border-radius: 0.5rem;
+}
+
+.output_fied {
     display: flex;
+    flex-direction: row;
+}
+
+.output_fied {
+    margin: auto;
+    text-align: center;
+}
+
+.flex__numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+.num_btn {
+    vertical-align:middle;
+    text-align: center;
+    font-size: 30px;
+   
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: 0.5rem;
+}
+.flex__equals {
+    margin-top:25px;
+    margin-bottom:25px;
+    display: flex;
+}
+
+.btn__blue  {
+    vertical-align:middle;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 30px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background-color: blue;
 }
