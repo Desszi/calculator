@@ -1,0 +1,59 @@
+.container {
+    width: 70%;
+    justify-content: center;
+    border-color:  2px;
+    padding: 1rem;
+    margin: 10rem;
+}
+
+.flexbox__options {
+    width: 100%;
+}
+
+
+.flexbox__options--func {
+ padding: 0.5rem 1rem 0.5rem 1rem;
+ font-size: large;
+ margin: 0.2rem;
+ text-align: center;
+ background-color: rgba(80, 79, 79, 0.692);
+
+}
+
+.flexbox__numbers {
+    width: 100%;
+}
+
+
+.flexbox__numbers--num {
+ padding: 0.5rem 1rem 0.5rem 1rem;
+ font-size: large;
+ margin: 0.2rem;
+ text-align: center;
+
+}
+
+.flexbox_equals--blue{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: large;
+    margin: 0.2rem;
+    text-align: center;
+    background-color: rgb(69, 69, 243);
+    align-items: stretch;
+   
+   }
+
+.input {
+    border-color: solid 2px;
+    width: 37%;
+}
+
+.flexbox_options {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.flex_together {
+    display: flex;
+}
