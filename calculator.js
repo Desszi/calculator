@@ -1,2 +1,16 @@
+const addClickListener = () => {
+    document
+        .querySelectorAll('.btn')
+        .forEach(element => {
+            element.addEventListener('click', handleClick);
+        });
+}
+const handleClick = (event) => {
+    modifyInput(event.target);
+}
 
-document.querySelectorAll(".num_btn 7").addEventListener("click", ()=> document.querySelector(".in").innerHTML = "7 World");
+const modifyInput = (element) => {
+    const input= document
+        .querySelector('.in');
+    input.textContent = element.data;
+}
